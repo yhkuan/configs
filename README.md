@@ -21,6 +21,13 @@ This will download the data from this repo. and store the data in the file name 
 5. `Ctrl-b, &` -> kill current window
 6. `Ctrl-b, [` -> into copy mode 在這模式中讓你可以往前瀏覽之前的content
 7. In Copy mode, `Ctrl-r` -> 進入向上search模式，會把一樣的字串標記成黃色，按下Enter後離開search 模式，這時候透過鍵盤的n 來持續search 不同位置的結果。
+8. 在tmux 下如何清除 the content of a pane?
+    ```
+    Ctrl-b
+    :clear-history
+    ```
+9. TBD
+
 ## gitconfig
 ### Install
 This will download the data from this repo. and store the data in the file name `.gitconfig` which located in your home directory.
