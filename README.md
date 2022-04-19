@@ -1,5 +1,14 @@
 # configs
 My configuration files or resource files to use for work in Linux-based environments.
+Minimumm install for development
+```
+sudo apt install net-tools
+sudo apt install openssh-server
+- sudo systemctl status ssh (檢查ssh server 是否運行)
+sudo apt install tmux
+sudo apt install git gitconfig
+```
+
 ## tmux.conf
 ### Install
 This will download the data from this repo. and store the data in the file name `.tmux.conf` which located in your home directory.
