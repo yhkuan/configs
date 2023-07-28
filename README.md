@@ -34,3 +34,7 @@ This will download the data from this repo. and store the data in the file name 
 ### Install
 This will download the data from this repo. and store the data in the file name `.gitconfig` which located in your home directory.
 - `wget -O- https://raw.githubusercontent.com/yhkuan/configs/main/gitconfig | cat > ~/.gitconfig`
+
+## gitignore
+This will download the data from this repo. and store the data in the file name `.gitignore` which located in your git project directory.
+- `wget -O- https://raw.githubusercontent.com/yhkuan/configs/main/VisualStudio.gitignore | cat > .gitconfig`
